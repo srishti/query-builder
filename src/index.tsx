@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import QueryBuilder from "./QueryBuilder";
+import App from "./App";
 import "./index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <QueryBuilder />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

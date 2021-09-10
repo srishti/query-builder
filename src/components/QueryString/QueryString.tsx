@@ -19,9 +19,6 @@ const QueryString = () => {
           value: "Build your query",
         }}
       />
-      <Button className={styles["query-close-button"]} secondary>
-        X
-      </Button>
     </header>
   );
 };

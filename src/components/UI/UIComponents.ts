@@ -22,3 +22,25 @@ export interface UiTextbox {
   label?: UiLabel;
   input: UiInput;
 }
+
+export interface UiModal {
+  className?: string;
+  onClose: React.MouseEventHandler;
+}
+
+interface UiSelect extends React.SelectHTMLAttributes<HTMLSelectElement> {
+  className?: string;
+}
+
+export interface UiSelectOption
+  extends React.OptionHTMLAttributes<HTMLOptionElement> {
+  className?: string;
+  value?: string | number;
+}
+
+export interface UiDropdown {
+  className?: string;
+  label?: UiLabel;
+  select?: UiSelect;
+  options?: UiSelectOption[];
+}

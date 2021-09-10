@@ -3,6 +3,9 @@
 .query-string {
   padding: 2rem;
   background-color: var.$color-primary;
+  height: 9rem;
+  border-top-left-radius: var.$border-radius-curve;
+  border-top-right-radius: var.$border-radius-curve;
 }
 
 .query-string-input {
@@ -11,12 +14,4 @@
 
 .query-string-label {
   font-size: var.$font-size-base * 1.4;
-}
-
-.query-close-button {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  padding: 0.15rem 0.35rem;
-  font-weight: normal;
 }
