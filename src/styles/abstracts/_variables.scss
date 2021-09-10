@@ -1,11 +1,12 @@
 /* colors */
-$color-primary: #5b27d4;
-$color-primary-dark: #320b8d;
+$color-primary: #6360fa;
+$color-primary-dark: #3634be;
 $color-black: #222;
 $color-white: #fff;
 $color-gray-dark: #444;
 $color-gray: #888;
-$color-gray-light: #ddd;
+$color-gray-light: #aaa;
+$color-gray-lighter: #ddd;
 
 /* fonts */
 $font-family-base: "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
@@ -35,5 +36,5 @@ $transition-linear: all 1s linear;
 $border-radius-curve: 0.45rem;
 
 /* box shadow */
-$box-shadow-light: 0 1px 3px rgba(0, 0, 0, 0.3);
-$box-shadow-dark: 0 1px 5px rgba(0, 0, 0, 0.3);
+$box-shadow-light: 0 1px 3px rgba(1, 1, 1, 0.3);
+$box-shadow-dark: 0 1px 5px rgba(1, 1, 1, 0.3);

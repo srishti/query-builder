@@ -1,0 +1,37 @@
+@use "../../../styles/abstracts/variables" as var;
+
+.textbox {
+  font-size: var.$font-size-base;
+
+  @media screen and (min-width: 769px) {
+    font-size: var.$font-size-base * 1.1;
+  }
+
+  @media screen and (min-width: 1025px) {
+    font-size: var.$font-size-base * 1.2;
+  }
+
+  label {
+    display: block;
+    color: var.$color-white;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 0.85rem;
+    background-color: var.$color-primary-dark;
+    color: var.$color-white;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+
+    &:active,
+    &:focus {
+      border-color: var.$color-primary-dark;
+    }
+  }
+}
