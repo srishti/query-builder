@@ -1,8 +1,8 @@
-import React from "react";
-import Modal from "./components/layout/Modal/Modal";
-import QueryString from "./components/QueryString/QueryString";
-import FilterGroup from "./components/FilterGroup/FilterGroup";
-import Button from "./components/UI/Button/Button";
+import React, { useContext } from "react";
+import Modal from "../layout/Modal/Modal";
+import QueryString from "../QueryString/QueryString";
+import FilterGroup from "../FilterGroup/FilterGroup";
+import Button from "../UI/Button/Button";
 import styles from "./QueryBuilder.module.scss";
 
 interface QueryBuilderComponent {

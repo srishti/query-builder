@@ -21,6 +21,7 @@ const Dropdown = React.forwardRef<HTMLSelectElement, UiDropdown>(
           id={props.select?.id}
           name={props.select?.name}
           ref={ref}
+          onChange={props.onChange}
         >
           {props.options?.map((option) => (
             <option

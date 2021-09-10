@@ -1,0 +1,14 @@
+.filter-dropdowns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.filter-dropdown {
+  width: 30%;
+  max-width: 15rem;
+}
+
+.add-filter-button {
+  margin-top: 1.5rem;
+}

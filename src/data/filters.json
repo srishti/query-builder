@@ -1,0 +1,50 @@
+[
+  {
+    "field": "Theme",
+    "type": "TextFilter",
+    "category": "Prediction",
+    "criteria": ["Offers", "Performance", "Platform", "Product Feedback"]
+  },
+  {
+    "field": "Sub-theme",
+    "type": "TextFilter",
+    "category": "Prediction",
+    "criteria": ["Offers", "Performance", "Platform", "Product Feedback"]
+  },
+  {
+    "field": "Reason",
+    "type": "TextFilter",
+    "category": "Prediction",
+    "criteria": ["Offers", "Performance", "Platform", "Product Feedback"]
+  },
+  {
+    "field": "Language",
+    "type": "TextFilter",
+    "category": "Prediction",
+    "criteria": ["Offers", "Performance", "Platform", "Product Feedback"]
+  },
+  {
+    "field": "Source",
+    "type": "TextFilter",
+    "category": "Prediction",
+    "criteria": ["Offers", "Performance", "Platform", "Product Feedback"]
+  },
+  {
+    "field": "Rating",
+    "type": "NumberFilter",
+    "category": "Prediction",
+    "criteria": [1, 2, 3, 4, 5]
+  },
+  {
+    "field": "Time Period",
+    "type": "DateFilter",
+    "category": "Prediction",
+    "criteria": ["Today", "Tomorrow"]
+  },
+  {
+    "field": "Customer ID",
+    "type": "TextFilter",
+    "category": "Common",
+    "criteria": ["1", "2", "3", "4"]
+  }
+]

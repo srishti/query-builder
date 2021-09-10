@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "./components/UI/Button/Button";
-import QueryBuilder from "./QueryBuilder";
+import { QueryBuilderContextProvider } from "./context/query-builder-context";
+import QueryBuilder from "./components/QueryBuilder/QueryBuilder";
 import styles from "./App.module.scss";
 
 const App = () => {
@@ -23,7 +24,9 @@ const App = () => {
         View Feedback
       </Button>
       {isQueryBuilderModalOpen && (
-        <QueryBuilder onCloseModal={closeQueryBuilderModalHandler} />
+        <QueryBuilderContextProvider>
+          <QueryBuilder onCloseModal={closeQueryBuilderModalHandler} />
+        </QueryBuilderContextProvider>
       )}
     </>
   );

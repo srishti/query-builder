@@ -43,4 +43,5 @@ export interface UiDropdown {
   label?: UiLabel;
   select?: UiSelect;
   options?: UiSelectOption[];
+  onChange?: React.ChangeEventHandler;
 }
